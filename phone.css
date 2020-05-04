@@ -1,0 +1,223 @@
+@media only screen and (max-width: 376px) {
+    .navbar .logo {
+        justify-self: start;
+        padding: 4px 0px;
+        cursor:default;
+    }
+    .showcase .container {
+        padding-top: 0px;
+    }
+    .logo .logo-span {
+        color: var(--main-color);
+    }
+    nav ul li a {
+        font-size: 18px;
+        padding: 8px;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    .showcase {
+        height: 380px;
+    }
+    .head {
+        text-align: center;
+        padding:16px;
+        display: block;
+        position: relative;
+    
+    }
+    .head-light{
+        text-align: center;
+        padding:16px;
+        color: var(--medium-color);
+        display: block;
+        position: relative;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+        .mail{
+            display: none;
+        }
+        .postcard  {
+            width: 100%;
+            height: 250px;
+        background: none;
+        position: relative;
+        top: 0;
+        z-index: 2;
+        animation: none ;
+        font-size: 14px;
+        display: flex;
+        align-items: unset;
+        text-align: unset;
+        line-height: 1.2;
+        display: block;
+
+    
+    }
+    .postcard h1 {
+        font-size: 18px;
+    }
+    .postcard .vr-line{
+        display: none;
+
+    }
+
+
+
+     .mail-container {
+         display: flex;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+     }
+        .boxes-mobile {
+            display: block;
+            justify-content:center;
+            align-items: center;
+         }
+         .box-mobile {
+             display: block;
+             width: 90%;
+             height: 148px;
+             margin: 16px 5%;
+             border: 1px solid #e5e5e5;
+             border-radius:12px ;
+             padding: 8px;
+             justify-self: center;
+         }
+        .boxes-work {
+            display: none;
+        }
+        .work-section {
+            height:600px;
+        }
+        .team {
+            display: block;
+            padding-top: 32px;
+        }
+        .img-team {
+            display: none   ;
+        }
+        .team h2 {
+            font-size: 14px;
+        }
+        .team h1 {
+            font-size: 18px ;
+        }
+        .section-team {
+            height: 360px;
+        }
+        .team .text-team {
+            padding:24px;
+        }
+        .team .text-team ul li {
+            font-size: 16px;
+        }
+        .boxes-part {
+            display:block;
+            padding-top: 0px;
+            justify-self: center;
+        
+        }
+        .section-parteners {
+            background: url(./img/bg.jpg)no-repeat center center/cover;
+            height: 450px;
+            position: relative;
+            color: var(--medium-color);
+        }
+        .box-part {
+            width: 90%;
+            height: 100px;
+            border-radius: 16px;
+            opacity: 1;
+            transition: none;
+            margin: 16px;
+            
+        }
+        .box-part h1 {
+            display: inline;
+        }
+        .container-comments .comment {
+            width: 90%;
+            height: 160px;
+            margin-top: 32px;
+            display: flex;
+            background-color: var(--main-color);
+            transition: none;
+            justify-self: center;
+        
+        }
+        
+        .mobile-form {
+            display: grid;
+            text-align: center;
+            justify-self: center;
+        }
+        .mobile-form input {
+            padding: 12px;
+            background-color: #e5e5e5;
+            margin: 12px 0px;
+            border-radius: 12px;
+            width: 100%;
+        }
+        .wrapper {
+            display: none   ;
+        }
+        .contact .form .contact-us .phone  {
+        padding-top: 24px;
+        text-align: center;
+        margin:auto;
+        width: 200px;
+    }
+    .contact .form {
+        grid-template-columns: none;
+        display: block;
+        padding: 0px;
+    }
+    .section-comments {
+        padding-bottom: 0px;
+    }
+    .contact .form .contact-us {
+        justify-self: center;
+        display: grid;
+    }
+    .contact .form .contact-us .vr-line {
+        display: none;
+    }
+    .contact .form .contact-us .adress  {
+        padding-top: 24px;
+        text-align: center;
+        margin:auto;
+    }
+    .contact {
+        height: 480px;
+        background: var(--main-color);
+        padding: 16px;
+        width: 100%;
+        transition: all 1s ease;
+        position: relative;
+    }
+    
+    
+    .container-comments .comment {
+        width: 50%;
+        height: 220px;
+        margin-top: 32px;
+        display: flex;
+        background-color: var(--main-color);
+        transition: none;
+        justify-self: center;
+    
+}
+.container-comments .comment h1 {
+    font-size: 14px;
+}
+}

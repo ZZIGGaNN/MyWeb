@@ -398,10 +398,7 @@ nav ul li a:hover {
 .box-part h1 {
     display: none;
 }
-.box-part:hover .box-texture {
-    opacity: 1;
-    transform: translateY(0px);
-}
+
 
 #box-part-1 {background: url(/img/pateners/DHL.png) no-repeat center center/cover;}
 #box-part-2 {background: url(/img/pateners/fedEx.png) no-repeat center center/cover;}
@@ -441,19 +438,26 @@ nav ul li a:hover {
     opacity: 0;
     transition: 0.5s 0.5s ease;
 }
-.container-comments .comment:hover .img-comment::before {
-    opacity: 0;
-}
+
+@media only screen and (min-width: 1719px){
 .container-comments .comment:hover {
     width: 880px;
     height: 240px;
     margin: 50px 0px;
     font-size: 18px;
-    
 }
-.container-comments .comment:hover i {
+.container-comments .comment:hover .img-comment::before {
+    opacity: 0;
+}
+    .container-comments .comment:hover i {
     opacity: 1;
+
 }
+.container-comments .comment:hover h1 {
+    text-decoration: underline;
+}
+}
+
 .container-comments .comment {
     width: 880px;
     height: 160px;
@@ -463,9 +467,7 @@ nav ul li a:hover {
     transition: all 0.5s ease;
 
 }
-.container-comments .comment:hover h1 {
-    text-decoration: underline;
-}
+
 #comment-1{background: url(/img/cleints/cl1.jpg) no-repeat center center/cover;}
 #comment-2{background: url(/img/cleints/cl2.jpg) no-repeat center center/cover;}
 #comment-3{background: url(/img/cleints/cl3.jpg) no-repeat center center/cover; z-index: 3;}

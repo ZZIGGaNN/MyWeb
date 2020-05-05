@@ -460,7 +460,6 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 1200px){
 .container-comments .comment:hover {
-    width: 880px;
     height: 240px;
     margin: 50px 0px;
     font-size: 18px;
@@ -479,7 +478,7 @@ nav ul li a:hover {
 }
 
 .container-comments .comment {
-    width: 880px;
+    width: 100%;
     height: 160px;
     margin: 16px 0px;
     display: flex;

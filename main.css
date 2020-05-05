@@ -51,6 +51,7 @@ a { cursor: pointer;
     padding:32px;
     display: block;
     position: relative;
+    font-size:18px;
 
 }
 .head-light{
@@ -59,6 +60,7 @@ a { cursor: pointer;
     color: var(--medium-color);
     display: block;
     position: relative;
+    font-size:18px;
 }
 p {
     padding-top:16px;
@@ -69,6 +71,7 @@ p {
     position: fixed;
     z-index: 15;
     width: 100%;
+    overflow: hidden;
 }
 /* Navbar */
 .container-navbar {
@@ -87,8 +90,8 @@ p {
     color: var(--main-color);
 }
 nav ul li a {
-    font-size: 24px;
-    padding: 12px;
+    font-size: 18px;
+    padding: 16px;
     text-align: center;
     transition: all 0.5s ease;
 }
@@ -142,7 +145,7 @@ nav ul li a:hover {
     }
     .postcard  {
         width: 650px;
-        height: 550px;
+        height: 500px;
     background: url(/img/postcard.png) no-repeat top left/cover;
     padding:0px 64px;
     position: absolute;
@@ -154,6 +157,10 @@ nav ul li a:hover {
     text-align: center;
     line-height: 1.2;
 
+}
+.postcard h1 {
+    font-size: 18px;
+    margin: 16px;
 }
 .vr-line {
     height: 200px;
@@ -210,6 +217,7 @@ nav ul li a:hover {
     transition: all 0.5s;
     border-radius: 16px;
     display: block;
+    box-shadow: 0px 0px 5px 0.25px rgba(0,0,0,0.25);
     
 
 }
@@ -229,10 +237,13 @@ nav ul li a:hover {
     transform: translateY(120px);
     cursor: default;
 }
+.boxes-work .box-work .box-work-text p {
+    font-size: 16px;
+}
 /* letter*/
 
 .wrapper {
-    position:absolute;
+    position: relative;;
     padding-top: 10px; 
     visibility: visible;   
 }
@@ -244,7 +255,7 @@ nav ul li a:hover {
     border-bottom-right-radius:10px ;
     position: relative;
     transform-style: preserve-3d;
-    box-shadow: 0px 3px 37px 1px black;
+    box-shadow: 0px 0px 5px 0.25px rgba(0,0,0,0.25);
 }
 .mail-team h1 {
     position: relative;
@@ -326,7 +337,8 @@ nav ul li a:hover {
 /*Team*/
 .section-team {
     background:url(./img/team/bg-team.jpg) no-repeat center center/cover;
-    height: 572px;
+    height: 520px;
+    overflow: hidden;
 }
 .team {
     padding-top:64px ;
@@ -335,10 +347,10 @@ nav ul li a:hover {
     grid-gap: 16px;
 }
 .team h1 {
-    font-size: 36px;
+    font-size: 24px;
 }
 .team h2 {
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 8px;
 }
 .team .img-team {
@@ -346,17 +358,19 @@ nav ul li a:hover {
     height: auto;
     border-radius: 10px;
     background: url(./img/team/team.jpg) no-repeat center center/cover;
+    box-shadow: 0px 0px 5px 0.25px rgba(0,0,0,0.25);
 }
 .team .text-team {
     background-color: var(--main-color);
     padding: 48px;
     color: var(--medium-color);
     border-radius: 10px;
+    box-shadow: 0px 0px 5px 0.25px rgba(0,0,0,0.25);
 
 }
 .team .text-team ul li {
     text-decoration: underline;
-    font-size: 24px;
+    font-size: 18px;
     padding-top:8px ;
 }
 /* PArteners */
@@ -384,7 +398,7 @@ nav ul li a:hover {
 .boxes-part {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap:28px;
+    grid-gap:50px;
     padding-top: 64px;
 
 }
@@ -394,6 +408,7 @@ nav ul li a:hover {
     border-radius: 16px;
     opacity: 0.8;
     transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px 0.25px rgba(0,0,0,0.25);
 }
 .box-part h1 {
     display: none;
@@ -432,14 +447,18 @@ nav ul li a:hover {
 
 }
 .container-comments .comment h1 {
-    transition: text-decoration 1s 1s ease;
+    transition: all 1s  ease;
+    font-size: 18px;
+}
+.container-comments .comment p {
+    font-size: 16px;
 }
 .container-comments .comment i {
     opacity: 0;
     transition: 0.5s 0.5s ease;
 }
 
-@media only screen and (min-width: 1719px){
+@media only screen and (min-width: 1200px){
 .container-comments .comment:hover {
     width: 880px;
     height: 240px;
@@ -455,18 +474,22 @@ nav ul li a:hover {
 }
 .container-comments .comment:hover h1 {
     text-decoration: underline;
+    font-size: 20px;
 }
 }
 
 .container-comments .comment {
     width: 880px;
     height: 160px;
-    margin-top: 32px;
+    margin: 16px 0px;
     display: flex;
     background-color: var(--main-color);
     transition: all 0.5s ease;
-
+    color: #e5e5e5;
+    box-shadow: 0px 0px 5px 0.25px rgba(0,0,0,0.25);
 }
+
+
 
 #comment-1{background: url(/img/cleints/cl1.jpg) no-repeat center center/cover;}
 #comment-2{background: url(/img/cleints/cl2.jpg) no-repeat center center/cover;}
@@ -495,6 +518,13 @@ nav ul li a:hover {
     justify-self: end;
     color: var(--medium-color);
     
+}
+.contact .form .contact-us h1 {
+    font-size: 20px;
+}
+.contact .form .contact-us h2 {
+    font-size: 16px;
+    padding-top: 10px;
 }
 .contact .form .contact-us .phone  {
     padding-top: 24px;
@@ -525,9 +555,10 @@ nav ul li a:hover {
 /* Footer */
 footer {
     background-color: #333;
-    height: 64px;
+    height: 48px;
 }
 .main-footer {
     text-align: center;
     color: #fff;
+    
 }

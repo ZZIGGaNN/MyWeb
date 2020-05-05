@@ -16,6 +16,14 @@
     line-height: 1.2;
 
 }
+.contact {
+    padding: 0px;
+    height: auto;
+}
+.contact .form {
+    justify-content: center;
+    padding-top: 150px;
+}
  .mail-container {
      display: flex;
      text-align: center;
@@ -27,7 +35,7 @@
      height: 200px;
  }
  .wrapper {
-    position:absolute;
+    position: relative;;
     padding-top: 10px; 
     visibility: visible;   
 }
@@ -221,7 +229,7 @@
 }
 
 .contact {
-    height: 500px;
+    height: 550px;
     background: var(--main-color);
     padding: 0px;
     width: 100%;
